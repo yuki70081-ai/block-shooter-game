@@ -3,7 +3,6 @@ import { Ship } from './Ship.js';
 import { Renderer } from './renderer.js';
 import { makeRipple, createParticles } from './effects.js';
 
-// Ігрові правила, рахунок, зіткнення та анімаційний цикл.
 export class Game {
   constructor(elements) {
     this.el = elements;

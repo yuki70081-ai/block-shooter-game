@@ -1,6 +1,5 @@
 import { COLS } from './config.js';
 
-// Об'єкт корабля: властивості та методи, як вимагає завдання.
 export class Ship {
   constructor(col, row, color, isPlayer = false) {
     this.col = col;

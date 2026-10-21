@@ -1,4 +1,3 @@
-// Усі налаштування та константи гри в одному місці.
 export const COLS = 8;
 export const ROWS = 11;
 export const CELL_SIZE = 48;

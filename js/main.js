@@ -1,6 +1,5 @@
 import { Game } from './game.js';
 
-// Точка входу: знаходимо HTML-елементи та підключаємо події.
 const elements = {
   canvas: document.getElementById('game'),
   score: document.getElementById('score'),

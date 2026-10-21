@@ -1,6 +1,5 @@
 import { CELL_SIZE } from './config.js';
 
-// Кольорова хвиля позаду ігрового поля після попадання.
 export function makeRipple(color, col, row, canvas, rippleLayer) {
   const bounds = canvas.getBoundingClientRect();
   const x = (col + 0.5) * CELL_SIZE;

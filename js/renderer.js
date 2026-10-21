@@ -1,6 +1,5 @@
 import { COLS, ROWS, CELL_SIZE } from './config.js';
 
-// Усі операції малювання на canvas.
 export class Renderer {
   constructor(canvas) {
     this.canvas = canvas;
