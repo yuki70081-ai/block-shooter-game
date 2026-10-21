@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Block Shooter</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <div id="ripples" aria-hidden="true"></div>
+  <header class="topbar">
+    <div class="brand"><div class="logo"><i></i><i></i><i></i><i></i></div> Block Shooter</div>
+    <nav><span class="active">Play</span><span>Arcade</span></nav>
+    <span class="key-tip">← → move &nbsp; · &nbsp; Space shoot</span>
+  </header>
+  <main class="page">
+    <section class="game-card" aria-label="Block Shooter game">
+      <div class="game-heading"><div><span class="eyebrow">SCORE</span><strong id="score">0</strong></div><div class="right"><span class="eyebrow">SPEED</span><strong id="speedLabel">1×</strong></div></div>
+      <div class="board-frame"><canvas id="game" width="384" height="528" aria-label="Ігрове поле: 8 стовпців та 11 рядків"></canvas><div id="overlay" class="overlay"><div id="overlayText">Натисни START, щоб грати</div></div></div>
+      <div id="status" class="status">Знищуй усі кубики, поки вони не дійшли донизу.</div>
+      <div class="controls"><button id="startBtn" class="primary">▶ &nbsp; START</button><div class="speed-control"><label for="speed">SPEED</label><select id="speed"><option value="1">1×</option><option value="2">2×</option><option value="3">3×</option><option value="4">4×</option><option value="5">5×</option></select></div></div>
+    </section>
+  </main>
+</body>
+</html>
